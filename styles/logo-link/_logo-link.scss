@@ -1,0 +1,9 @@
+@mixin base() {
+    display: inline-block;
+}
+
+.logo-link {
+    @include base;
+
+    @import 'image';
+}

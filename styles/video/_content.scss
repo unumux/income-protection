@@ -1,0 +1,9 @@
+@mixin base() {
+    display: block;
+    margin: 0 auto;
+
+}
+
+&__content {
+    @include base;
+}

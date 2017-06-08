@@ -1,0 +1,14 @@
+@mixin base() {
+    // width: 11rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+
+    @media all and (min-width: 768px) {
+        // width: 16rem; 
+    }
+}
+
+&__image {
+    @include base;
+}

@@ -1,0 +1,16 @@
+@mixin base() {
+    // @include containElement();
+    background-color: #333;
+    padding-bottom: 5rem;
+
+}
+
+.testimonial {
+    @include base;
+
+    @import 'button';
+    @import 'description';
+    @import 'image';
+    @import 'caption';
+    
+}

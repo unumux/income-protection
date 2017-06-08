@@ -1,0 +1,7 @@
+@mixin base() {
+    margin-bottom: 3rem;
+}
+
+&__legal{
+    @include base;
+}

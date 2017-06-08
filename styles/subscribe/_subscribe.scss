@@ -1,0 +1,14 @@
+@mixin base() {
+    @include containElement();
+
+
+}
+
+.subscribe {
+    @include base;
+
+    @import 'heading';
+    @import 'description';
+    @import 'email';
+    @import 'form';
+}

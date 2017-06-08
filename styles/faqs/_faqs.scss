@@ -1,0 +1,22 @@
+@mixin base() {
+    @include containElement();
+
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    padding: 2rem;
+
+    @media(min-width: 768px) {
+        padding: 0 5rem;
+    }
+}
+
+.faqs {
+    @include base;
+
+    @import 'heading';
+    @import 'question';
+    @import 'answer';
+    @import 'answer-link';
+    @import 'faq';
+    @import 'list';
+}

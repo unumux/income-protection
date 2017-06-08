@@ -1,0 +1,16 @@
+@mixin base() {
+    @include containContent();
+
+    background-color: #3a80aa;
+    color: #fff;
+    padding: 2rem;
+
+}
+
+.page-footer {
+ @include base;
+
+ @import 'content';
+ @import 'legal';
+
+}

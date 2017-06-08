@@ -1,0 +1,18 @@
+@mixin base() {
+    @include containElement();
+
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    width: 100%;
+
+}
+
+.call-to-action {
+    @include base;
+
+    @import 'content';
+}

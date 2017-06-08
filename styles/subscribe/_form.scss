@@ -1,0 +1,8 @@
+@mixin base() {
+    padding-top: 3rem;
+    padding-left: 25rem
+}
+
+&__form {
+    @include base;
+}

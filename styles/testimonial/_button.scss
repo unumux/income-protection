@@ -1,0 +1,17 @@
+@mixin base() {
+    background-color: #1480AE;
+    border-radius: .5rem;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    padding: 2rem;
+    text-align: center;
+    text-decoration: none;
+    width: 40rem;
+}
+
+&__button {
+    @include base;
+}

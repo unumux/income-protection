@@ -1,0 +1,14 @@
+@mixin base() {
+    background-color: #3a80aa;
+    border-radius: 1rem;
+    color: #fff;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    text-decoration: none;
+    width: 25rem;
+}
+
+&__button {
+    @include base;
+}

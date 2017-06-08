@@ -1,0 +1,41 @@
+@mixin base() {
+    color: #3a80aa;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+}
+
+&__question {
+    @include base;
+
+    &::before {
+        background-image: url('../images/minus.svg');
+        background-repeat: no-repeat;
+        background-size: 30%;
+        background-position: center;
+        background-color: #005488;
+        border-radius: 50%;
+        color:#fff;
+        content: ' ';
+        height: 2.5rem;
+        display: inline-block;
+        left: -4rem;
+        line-height: 24px;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 2.5rem;
+
+        .faqs__faq[data-collapsed="true"] & {
+            background-color: #3a80AA;
+            content: ' ';
+            background-image: url('../images/plus.svg');
+
+        }
+    }
+
+
+}

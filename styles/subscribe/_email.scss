@@ -1,0 +1,29 @@
+@mixin base() {
+    background-color: #F4F4F4;
+    border: none;
+    height: 5rem;
+    margin: 8px 0;
+    margin-bottom: 4rem;
+    padding: 12px 20px;
+    width: 75%;
+}
+
+&__email {
+    @include base;
+
+    &--button {
+        background-color: #1480AE;
+        border-radius: .5rem;
+        border: none;
+        color: #fff;
+        display: block;
+        font-family: 'Montserrat';
+        font-size: 1.5rem;
+        margin: 0 auto;
+        margin-bottom: 5rem;
+        padding: 2rem;
+        text-align: center;
+        text-decoration: none;
+        width: 20rem;
+    }
+}

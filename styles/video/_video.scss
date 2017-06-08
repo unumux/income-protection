@@ -1,0 +1,10 @@
+@mixin base() {
+    margin: 0 auto;
+}
+
+.video {
+    @include base;
+
+    @import 'content';
+    @import 'wrapper';
+}

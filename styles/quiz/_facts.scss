@@ -1,0 +1,10 @@
+@mixin base() {
+    flex-basis: 100%;
+    margin-top: 5rem;
+    margin-right: 5rem;
+}
+
+&__facts {
+    @include base;
+
+}

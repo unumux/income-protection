@@ -1,0 +1,20 @@
+@mixin base() {
+    @include containElement();
+    
+    // padding: 2rem;
+    padding: 0 2rem 2rem 2rem;
+    @media all and (min-width: 768px) {
+        padding: 5rem;
+    }
+}
+
+.content {
+    @include base;
+
+    h1 {
+        color: #3A80AA;
+    }
+
+    // @import 'container';
+    @import 'text';
+}

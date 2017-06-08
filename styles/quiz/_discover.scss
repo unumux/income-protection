@@ -1,0 +1,27 @@
+@mixin base() {
+    color: #333;
+    display: flex;
+    // flex-basis: 50%;
+    flex-direction: row;
+    // margin-top: 4rem;
+
+    @media all and (min-width: 768px) {
+        // margin-left: 5rem;
+        // margin-top: 9rem;
+        // max-width: 60%;
+    }
+}
+
+
+&__discover {
+    @include base;
+
+    &-content {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 75%;
+        margin-top: 5rem;
+        margin-left: 5rem;
+    }
+    
+}

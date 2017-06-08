@@ -1,0 +1,10 @@
+@mixin base() {
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+&__caption {
+    @include base;
+}
