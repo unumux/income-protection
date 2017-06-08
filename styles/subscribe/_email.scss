@@ -5,8 +5,14 @@
     margin: 8px 0;
     margin-bottom: 4rem;
     padding: 12px 20px;
-    width: 75%;
+    width: 100%;
+
+    @media all and (min-width: 768px) {
+        width: 75%;
+    }
+
 }
+
 
 &__email {
     @include base;
@@ -24,6 +30,10 @@
         padding: 2rem;
         text-align: center;
         text-decoration: none;
-        width: 20rem;
+        width: 35rem;
+
+        @media all and (min-width: 768px) {
+            width: 20rem;
+        }
     }
 }

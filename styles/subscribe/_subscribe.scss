@@ -1,7 +1,7 @@
 @mixin base() {
     @include containElement();
-
-
+    margin-bottom: 15rem;
+    margin-top: 15rem;
 }
 
 .subscribe {

@@ -1,6 +1,13 @@
 @mixin base() {
-    padding-top: 3rem;
-    padding-left: 25rem
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 4rem;
+
+    @media all and (min-width: 768px) {
+        padding-top: 3rem;
+        padding-left: 25rem
+    }
 }
 
 &__form {

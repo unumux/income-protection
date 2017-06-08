@@ -1,7 +1,12 @@
 @mixin base() {
-    flex-basis: 100%;
+    // flex-basis: 100%;
+    margin-left: 3rem;
     margin-top: 5rem;
-    margin-right: 5rem;
+    margin-right: 3rem;
+
+    @media all and (min-width: 768px) {
+        flex-basis: 100%;
+    }
 }
 
 &__facts {
