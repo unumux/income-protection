@@ -1,5 +1,10 @@
 @mixin base() {
-    margin: 0 auto;
+    // margin: 0 auto;
+        padding-bottom: 56.25%;
+
+    position: relative;
+    height: 0;
+    overflow: hidden;
 
 }
 
