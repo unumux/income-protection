@@ -1,14 +1,10 @@
 @mixin base() {
-
+    color: #fff;
     margin-bottom: 2rem;
+    padding: 5rem;
 
-    // @media all and (min-width: 768px) {
-    //     flex-grow: 1;
-    //     flex-shrink: 1;
-    //     flex-basis: 0%;
-    //     margin: 0;
-    //     max-width: 50%;
-    // }
+    @media all and (min-width: 768px) {
+    }
 }
 
 &__text {
@@ -16,11 +12,15 @@
 
     h1 {
         font-size: 3.4rem;
+        padding-top: 2rem;
         text-align: center;
 
         @media all and (min-width: 768px) {
-            font-size: 4rem;
-            line-height: 5rem;
+            font-size: 6rem;
+            line-height: 8rem;
+            margin: 0 auto;
+            max-width: 55%;
+            text-align: center;
         }
     }
 
