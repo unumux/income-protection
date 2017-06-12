@@ -1,0 +1,11 @@
+@mixin base() {
+
+}
+
+&__reference {
+    @include base;
+
+    &--link {
+        color: #fff;
+    }
+}

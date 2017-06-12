@@ -1,0 +1,9 @@
+@mixin base() {
+
+}
+
+.references {
+    @include base;
+
+    @import 'reference';
+}

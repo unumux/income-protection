@@ -9,6 +9,10 @@
         padding-bottom: 10rem;
         padding-top: 4rem;
     }
+
+    @media all and (min-width: 1440px) {
+        padding: 3rem 5rem 3rem calc(5rem + (100% - 1340px) / 2);
+    }
 }
 
 .faqs {

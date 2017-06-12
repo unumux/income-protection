@@ -1,7 +1,7 @@
 @mixin base() {
     @include containContent();
 
-    background-color: #3a80aa;
+    background-color: #037FB0;
     color: #fff;
     padding: 2rem;
 
@@ -10,7 +10,9 @@
 .page-footer {
  @include base;
 
+ @import 'nav';
  @import 'content';
  @import 'legal';
+ @import 'image';
 
 }

@@ -6,7 +6,11 @@
 
     @media all and (min-width: 768px) {
         padding-top: 3rem;
-        padding-left: 25rem
+        padding-left: 15rem
+    }
+
+    @media all and (min-width: 1220px) {
+        padding-left: 25rem;
     }
 }
 

@@ -2,21 +2,20 @@
     margin: 0 auto;
     margin-top: -4rem;
     padding-bottom: 4rem;
-    width: 80%;
+    width: 90%;
 
     @media screen and (min-width: 768px) {
         flex-basis: 50%;
         flex-grow: 0;
         flex-shrink: 1;
-        // margin-left: 3rem;
     }
 
     @media screen and (min-width: 1200px) {
         flex-basis: auto;
         flex-grow: 0;
         flex-shrink: 1;
-        height: 50%;
-        width: 50%;
+        height: 35%;
+        width: 35%;
     }
 }
 

@@ -1,7 +1,13 @@
 @mixin base() {
+    // @include containElement();
     border-bottom: 1px solid #aaa;
     list-style-type: none;
     padding: 2rem;
+    
+    
+    @media all and (min-width: 1400px) {
+        max-width: 67%;
+    }
 }
 
 &__faq {

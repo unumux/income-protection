@@ -1,12 +1,10 @@
 @mixin base() {
+    font-size: 1.1rem;
 
 }
 
 .copyright {
  @include base;
 
-    p {
-        font-size: 1.4rem;
-    }
     
 }
