@@ -1,0 +1,7 @@
+@mixin base() {
+    margin-top: 0;
+}
+
+&__descriptor {
+    @include base;
+}

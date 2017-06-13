@@ -1,21 +1,21 @@
 @mixin base() {
     margin: 0 auto;
-    margin-top: -4rem;
-    padding-bottom: 4rem;
+    transform: translateY(-6.8rem);
     width: 90%;
 
     @media screen and (min-width: 768px) {
         flex-basis: 50%;
         flex-grow: 0;
         flex-shrink: 1;
+        max-width: 725px;
     }
 
     @media screen and (min-width: 1200px) {
         flex-basis: auto;
         flex-grow: 0;
         flex-shrink: 1;
-        height: 35%;
-        width: 35%;
+        // height: 35%;
+        // width: 35%;
     }
 }
 

@@ -1,22 +1,10 @@
 @mixin base() {
-    // background-color: #3A80AA;
-    // border-bottom: 5px solid $yellow;
     color: #3A80AA;
     font-size: 4rem;
+    font-weight: 500;
     line-height: 4rem;
-    // padding: 1rem 2rem 1rem 3rem;
-    // padding-left: 2rem;
-    // transform: translateY(-2rem);
+    margin-bottom: 0;
     width: 90%;
-    
-
-    // @media all and (min-width: 768px) {
-    //     margin-left: -5rem;
-    //     padding-left: 5rem;
-    //     transform: translateY(-7rem);
-    //     width: 62%;
-
-    // }
 }
 
 &__heading {

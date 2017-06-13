@@ -1,18 +1,30 @@
 @mixin base() {
-    @include containElement();
-
+    background-color: #333;
     color: #fff;
-    margin: 0 auto;
-    margin-bottom: 8rem;
-    margin-top: 8rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    width: 100%;
+    margin-bottom: 3rem;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    margin-top: 3rem;
+    max-width: 1250px;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 
+    @media all and (min-width: 768px) {
+        margin: 0 auto;
+        margin-bottom: 8rem;
+        margin-top: 8rem;
+        padding: 8rem;
+    }
 }
 
 .call-to-action {
     @include base;
 
     @import 'content';
+    @import 'heading';
+    @import 'descriptor';
+    @import  'container';
+    @import 'group';
 }

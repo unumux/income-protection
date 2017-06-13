@@ -1,0 +1,15 @@
+@mixin base() {
+    display: flex;
+    flex-direction: column;
+
+    @media all and (min-width: 768px) {
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+        
+}
+
+&__group {
+    @include base;
+}
