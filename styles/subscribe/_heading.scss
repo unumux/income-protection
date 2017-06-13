@@ -1,10 +1,7 @@
 @mixin base() {
     color: #3a80aa;
     font-weight: 500;
-    margin-left: 2rem;
     margin-top: 5rem;
-    margin-right: 2rem;
-    text-align: center;
 }
 
 &__heading {

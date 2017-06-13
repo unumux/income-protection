@@ -1,7 +1,9 @@
 @mixin base() {
-    @include containElement();
-    margin-bottom: 15rem;
-    margin-top: 15rem;
+    margin: 0 auto;
+    padding-bottom: 10rem;
+    padding-top: 5rem;
+    text-align: center;
+    width: 66rem;
 }
 
 .subscribe {

@@ -1,16 +1,7 @@
 @mixin base() {
-
-    margin-left: 2rem;
-    margin-right: 2rem;
     margin-top: 4rem;
+    text-align: left;
 
-    @media all and (min-width: 768px) {
-        padding-left: 15rem
-    }
-
-    @media all and (min-width: 1220px) {
-        padding-left: 25rem;
-    }
 }
 
 &__form {
