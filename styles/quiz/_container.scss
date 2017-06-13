@@ -1,0 +1,14 @@
+@mixin base() {
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    @media all and (min-width: 768px) {
+        flex-direction: row;
+    }
+}
+
+&__container {
+    @include base;
+}
