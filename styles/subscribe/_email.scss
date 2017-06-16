@@ -1,25 +1,20 @@
 @mixin base() {
-    background-color: #F4F4F4;
-    border: none;
-    height: 5rem;
-    margin: 8px auto;
-    margin-bottom: 4rem;
-    padding: 12px 20px;
-    width: 100%;
-
-
+    
 }
 
 
 &__email {
     @include base;
 
-    &--button {
+}
+    .buttonStyle {
         background-color: #1480AE;
         border-radius: .5rem;
         border: none;
         color: #fff;
         display: block;
+        font-family: 'Ubuntu';
+        font-size: 1.8rem;
         font-weight: 500;
         margin: 0 auto;
         margin-bottom: 5rem;
@@ -32,4 +27,25 @@
             background-color: #3A89AA;
         }
     }
-}
+
+    #control_EMAIL {
+        background-color: #F4F4F4;
+        border: none;
+        height: 5rem;
+        margin: 8px auto;
+        margin-bottom: 4rem;
+        padding: 12px 20px;
+        width: 30rem;
+
+        @media all and (min-width: 768px) {
+            width: 66rem;
+        }
+    }
+
+    .button-container {
+        width: 30rem;
+
+        @media all and (min-width: 768px){
+            width: 65rem;
+        }
+    }
