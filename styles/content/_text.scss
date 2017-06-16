@@ -1,6 +1,6 @@
 @mixin base() {
     color: #fff;
-    background-image: url('../../images/hero-image-mobile.jpg');
+    background-image: url('https://unumux.github.io/income-protection/images/hero-image-mobile.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 13.6rem;
@@ -9,7 +9,7 @@
     padding-top: 6.8rem;
 
     @media all and (min-width: 768px) {
-        background-image: url('../../images/hero-image.jpg');
+        background-image: url('https://unumux.github.io/income-protection/images/hero-image.jpg');
         background-position: center center;
         background-size: cover;
         padding-top: 20rem;
