@@ -1,13 +1,9 @@
 @mixin base() {
-    display: flex;
-    justify-content: center;
     margin-bottom: 2rem;
     margin: 0 auto;
 
     @media all and (min-width: 768px) {
-        justify-content: flex-end;
         margin: initial;
-        width: 50%;
     }
 }
 
