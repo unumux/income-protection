@@ -39,10 +39,12 @@ sup {
 }
 
 iframe {
-    border: none;
-    height: 645px;
-}
+    height: 500px;
 
+    @media all and (min-width: 1100px) {
+        height: 645px;
+    }
+}
 
 .blue {
    color: #3A80AA;
